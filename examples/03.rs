@@ -1,4 +1,3 @@
-use std::ops::Index;
 
 fn main() {
     let path = "input/03.txt";
