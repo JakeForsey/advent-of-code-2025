@@ -45,12 +45,12 @@ fn part2(path: &str) {
                     matches &= pattern == chunk;
                     start_idx += width;
                     if start_idx + width > id_str.len() {
-                        break
+                        break;
                     }
                 }
                 if matches {
                     output += id;
-                    break
+                    break;
                 }
             }
         }

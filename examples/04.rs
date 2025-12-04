@@ -1,5 +1,4 @@
-use std::collections::{HashMap, HashSet};
-
+use std::collections::HashSet;
 
 fn main() {
     let path = "input/04.txt";
@@ -71,7 +70,7 @@ fn part2(path: &str) {
                 accessible_rolls.insert((i.clone(), j.clone()));
             }
         }
-        
+
         if accessible_rolls.is_empty() {
             break;
         } else {
@@ -83,4 +82,3 @@ fn part2(path: &str) {
     }
     println!("part2:\n{total_accessible}");
 }
-
